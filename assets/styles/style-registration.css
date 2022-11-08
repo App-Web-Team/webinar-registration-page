@@ -1,0 +1,125 @@
+.bg-circle p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    /* margin: auto; */
+}
+
+.bg-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+.circle-row {
+    position: relative;
+}
+
+.line {
+    content: "";
+    width: 50%;
+    /* height: 2px; */
+    border: 0.5px dotted var(--primary-color);
+    /* background-color: var(--primary-color); */
+    position: absolute;
+    top: 50%;
+}
+
+.box {
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+    outline: 0;
+    border: none;
+    padding: 30px;
+    color: var(--primary-color);
+    /* font-size: 16px; */
+}
+
+select {
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    /* color: var(--primary-color); */
+    /* color: green; */
+}
+
+select:invalid {
+    color: grey !important;
+}
+select:valid {
+    color: var(--primary-color) !important;
+}
+
+button {
+    width: 25%;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+}
+
+.content-col p {
+    font-weight: bold;
+}
+
+.webinar-text p:nth-child(1) {
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+
+.webinar-text p:nth-child(2) {
+    color: var(--primary-color);
+    font-size: 24px;
+}
+
+.almost-text {
+    color: var(--secondary-color);
+    font-size: 56px;
+}
+
+.proceed-text {
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+.fa-gift {
+    color: var(--secondary-color);
+    font-size: 86px;
+    margin-left: 20%;
+}
+
+@media screen and (max-width: 576px) {
+    .bg-circle p {
+        font-size: 10px;
+        /* margin: auto; */
+    }
+
+    .bg-circle {
+        height: 70px;
+        width: 70px;
+    }
+
+
+    .line {
+        width: 60%;
+        top: 50%;
+    }
+
+    button {
+        width: 30%;
+    }
+
+    .almost-text {
+        font-size: 32px;
+    }
+}
+
+option {
+    color: var(--primary-color) !important;
+}

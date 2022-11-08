@@ -1,0 +1,87 @@
+.success-container .bg-circle p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    /* margin: auto; */
+}
+
+.success-container .bg-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+.success-container .circle-row {
+    position: relative;
+}
+
+.success-container .line {
+    content: "";
+    width: 50%;
+    /* height: 2px; */
+    border: 0.5px dotted var(--primary-color);
+    /* background-color: var(--primary-color); */
+    position: absolute;
+    top: 50%;
+}
+
+.success-container .box {
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+.success-container .bg-circle-white {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.success-container .fa-check {
+    font-size: 150px;
+}
+
+.success-container .success-text {
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.success-container .btn {
+    color: var(--primary-color);
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 26px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.content-col p {
+    font-weight: bold;
+}
+
+.register-text {
+    color: var(--secondary-color);
+    font-size: 32px;
+    margin-top: 22%;
+}
+
+.webinar-details p{
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+.check-text {
+    font-size: 16px;
+}
+
+.success-container .login-btn {
+    color: #fff;
+    background-color: var(--secondary-color);
+    font-size: 20px;
+    width: 60%;
+    border-radius: 10px;
+}
